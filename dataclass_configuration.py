@@ -73,3 +73,5 @@ class configuration:
     error_rate: float = 0.01
     genotyper: list[str] = field(default_factory=lambda: ["adVNTR", "VNTRseek", "danbing-tk"])
     output_file_directory: str = "."
+
+    # Test
